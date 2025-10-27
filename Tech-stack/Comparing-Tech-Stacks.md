@@ -1,0 +1,2 @@
+# how to
+Make three simple pages with either your current project or your i love web documentation. Compare the three (/four if you have time to compare with SvelteKit) and write down the differences, pros and cons.
