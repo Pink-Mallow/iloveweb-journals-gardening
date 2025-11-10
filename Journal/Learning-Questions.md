@@ -1,5 +1,19 @@
 # ✒️Learning Questions
 
+## Sprint 13 Your tribe for life
+
+**Wat zijn sveltekit layouts en hoe kan je die toepassen in een web project?**
+- *`+layout.svelte` is a...*
+
+**Wat zijn componenten en hoe kan je die toepassen in een web project?**
+- *Components are a...*
+
+**Kies een van de principes: file-based routing, load functions, runes (reactivity hack) of forms en actions. Leg uit hoe je het gekozen principe kunt toepassen in een web project.**
+- *The chosen principle...*
+
+<br>
+<br>
+
 ## Sprint 14 Lose Your Head - The Client Case
 **[BEFORE THE SPRINT REVIEW]**   
 **How did you prepare for the sprint review?**  
@@ -22,6 +36,8 @@
 Wat heb je geleerd van je living standards?
 *I have learned... See more in [be-a-bargain-not-a-scam.md](be-a-bargain-not-a-scam.md).*
 
+<br>
+<br>
 
 ## Sprint 15 Choices Choices
 
@@ -54,3 +70,13 @@ DO the [Retromat #121](https://retromat.org/en/?id=121) on your mentor skills
 
 **Hoe helpt een refinement jouw project?**
 - *The refinement helps give a clear lookout on the work and a nice order of picking up tasks (issues) once you've finished your own work and can pick up the next task.*
+
+<br>
+<br>
+
+## Sprint 16 Don't Repeat Yourself
+
+**What can i do to make cooperation better within the team?**
+- *Communicate more times about what i am currently working on (take my teammates in my workprogress).*
+- *I have to prioritate my work better on the project (to finish my work faster).*
+- *Put my tempo up.* 
