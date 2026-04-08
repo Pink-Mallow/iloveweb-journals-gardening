@@ -1,0 +1,5 @@
+<ul>
+  {% for talk in collections.talks %}
+  <li><a href="{{ talk.url }}">{{ talk.data.title }}</a></li>
+  {% endfor %}
+</ul>
