@@ -1,5 +1,5 @@
 {
-  "name": "iloveweb-journals-learnings",
+  "name": "i-love-web-learning-journal",
   "version": "1.0.0",
   "description": "Learning Journal en Digital Gardening",
   "main": "index.js",
@@ -7,23 +7,22 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "dev": "vite",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pink-Mallow/iloveweb-journals-learnings.git"
+    "url": "git+https://github.com/Pink-Mallow/iloveweb-journals-gardening.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Pink-Mallow/iloveweb-journals-learnings/issues"
+    "url": "https://github.com/Pink-Mallow/iloveweb-journals-gardening/issues"
   },
-  "homepage": "https://github.com/Pink-Mallow/iloveweb-journals-learnings#readme",
+  "homepage": "https://github.com/Pink-Mallow/iloveweb-journals-gardening#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "axios": "^1.12.2",
-    "markdown-it": "^14.1.0"
+    "vite": "^8.0.10"
   }
 }
