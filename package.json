@@ -1,0 +1,28 @@
+{
+  "name": "i-love-web-learning-journal",
+  "version": "1.0.0",
+  "description": "Learning Journal en Digital Gardening",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pink-Mallow/iloveweb-journals-gardening.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pink-Mallow/iloveweb-journals-gardening/issues"
+  },
+  "homepage": "https://github.com/Pink-Mallow/iloveweb-journals-gardening#readme",
+  "dependencies": {
+    "vite": "^8.0.10"
+  }
+}

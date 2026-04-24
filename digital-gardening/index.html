@@ -1,0 +1,71 @@
+ <p>Color the text in the element with your favorite color name</p>
+  <p style="color: hsl(300 85 75);">pink</p>
+  <p style="color: hsl(230 43 25);">deep blue</p>
+  <p style="color: hsl(60 90 75);">pastel yellow</p>
+  <p style="color: hsl(100 80 80);">soft green</p>
+   
+  <p style="color: hsl(270 60 70);">purple</p>
+  <button>Button</button>
+  <a style="color: hsl(30 90 75)" href="/index.html">back to home</a>
+
+  <style>
+    button {
+      --h: 330;
+      --s: 80%;
+      --l: 45%;
+      --a: 1;
+      background-color: hsl(var(--h) var(--s) var(--l) / var(--a));
+      border: none;
+      text-decoration: none;
+      font-size: 4em;
+      padding: 0.2em 0.5em;
+      transition: all 0.3s ease;
+      border-radius: 0.2em;
+
+      &:hover {
+        --l: 75%;
+        --h: 280;
+      }
+      &:focus, &:active {
+        --s: 75%;
+      }
+      &[disabled] {
+        --l: 0%;
+        --a: 0.5;
+      }
+    }
+
+      body {
+        /* background-color: hsl(0, 0, 100); */
+        background-color: hsl(0 0 10);
+      }
+
+      p {
+        font-size: 4em;
+      }
+      
+      a {
+      --h: 30;
+      --s: 90%;
+      --l: 75%;
+      --a: 1;
+      font-size: 4em;
+      text-decoration: none;
+      background-color: hsl(var(--h) var(--s) var(--l) / var(--a));
+      transition: all 0.3s ease;
+      color: inherit;
+      padding: 0.1em 0.2em;
+      border-radius: 0.1em;
+    }
+    a:hover {
+      --l: 75%;
+      --h: 210;
+    }
+    a:focus, a:active {
+      --s: 75%;
+    }
+    a[disabled] {
+      --l: 0%;
+      --a: 0.5;
+    }
+  </style>
