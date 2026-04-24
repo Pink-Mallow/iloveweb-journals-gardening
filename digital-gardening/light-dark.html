@@ -1,0 +1,59 @@
+<h1>Light and Dark Property</h1>
+
+<fieldset>
+  <legend>Select Display</legend>
+  
+  <div>
+    <input type="radio" id="light" name="system-preference" value="light" checked/>
+    <label for="light">Light Mode</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="dark" name="system-preference" value="dark" checked/>
+    <label for="dark">Dark Mode</label>
+  </div>
+
+</fieldset>
+
+<div class="feature-test"></div>
+
+<style>
+  :root {
+    color-scheme: light dark;
+    
+    --text-color: light-dark(#000, #fff);
+    --background-color: light-dark(#F2C4CD, #051F45);
+  }
+
+  *, *::before, *::after {
+    padding: 0.25rem;
+    margin: 0.25rem;
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  body:has(#light:checked) {
+    color-scheme: light;
+  }
+  body:has(#dark:checked) {
+    color-scheme: dark;
+  }
+
+  fieldset {
+    width: fit-content;
+  }
+
+  input {
+    margin: 0.4rem;
+  }
+
+  .feature-test {
+    width: 250px;
+    height: 250px;
+    background-color: light-dark(#051F45, #F2C4CD);
+    box-shadow: 0.375rem 0.375rem 1.25rem oklch(0.59 0.32 308.6 / 0.09);
+  }
+</style>
