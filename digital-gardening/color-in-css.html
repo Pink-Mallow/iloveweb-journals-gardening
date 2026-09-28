@@ -1,0 +1,44 @@
+<h1>Color in CSS</h1>
+
+<p>Pink</p>
+<p>Pink rgb</p>
+<p>Pink hsl</p>
+<button>Pink</button>
+
+<style>
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 75px;
+  }
+
+  p:nth-of-type(1) {
+    background-color: pink;
+  }
+
+  p:nth-of-type(2) {
+    background-color: rgb(97%, 67%, 72%);
+  }
+
+  p:nth-of-type(3) {
+    background-color: hsl(-10deg 62% 82%);
+  }
+
+  button {
+    --h: -10;
+    --s: 90%;
+    --l: 80%;
+    --a: 1;
+    background: hsl(var(--h) var(--s) var(--l) / var(--a));
+
+    &:hover {
+      --l: 50%;
+    }
+    &:focus, &:active {
+      --s: 75%;
+    }
+    &[disabled] {
+      --s: 20%;
+      --a: 0.5;
+    }
+  }
+</style>
