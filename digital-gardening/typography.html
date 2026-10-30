@@ -1,0 +1,65 @@
+<h1>Typography</h1>
+
+<h2>10 words per line</h2>
+<p class="10-per-line">Lorem ipsum dolor sit, 
+  amet consectetur adipisicing elit. 
+  Quaerat, beatae, earum iure iste tempore sit, 
+  dignissimos eaque nostrum magnam veritatis sequi. 
+  Maiores libero consectetur dolore amet sunt beatae iusto harum!</p>
+<h2>55-75 characters per line</h2>
+<p class="characters-per-line">Lorem ipsum dolor sit 
+  amet consectetur adipisicing elit. 
+  Pariatur, in libero. 
+  Quasi quod fuga ut aliquid ratione consectetur. 
+  Voluptas modi accusantium quas corrupti, 
+  autem vero fuga veniam. Nostrum, enim illum.</p>
+
+<h2>text-wrap: balance </h2>
+<p class="10-per-line">Lorem ipsum dolor sit, 
+  amet consectetur adipisicing elit. 
+  Quaerat, beatae, earum iure iste tempore sit, 
+  dignissimos eaque nostrum magnam veritatis sequi. 
+  Maiores libero consectetur dolore amet sunt beatae iusto harum!</p>
+<h2>text-wrap: pretty</h2>
+<p class="characters-per-line">Lorem ipsum dolor sit 
+  amet consectetur adipisicing elit. 
+  Pariatur, in libero. 
+  Quasi quod fuga ut aliquid ratione consectetur. 
+  Voluptas modi accusantium quas corrupti, 
+  autem vero fuga veniam. Nostrum, enim illum.</p>
+
+<h2>Generic font family</h2>
+<p class="characters-per-line">Lorem ipsum dolor sit 
+  amet consectetur adipisicing elit. 
+  Pariatur, in libero. 
+  Quasi quod fuga ut aliquid ratione consectetur. 
+  Voluptas modi accusantium quas corrupti, 
+  autem vero fuga veniam. Nostrum, enim illum.</p>
+
+<style>
+
+  p:nth-of-type(1) {
+    color: red;
+    max-width: 60ch;
+  }
+  p:nth-of-type(2) {
+    color: blue;
+    max-width: 65ch;
+  }
+
+  p:nth-of-type(3) {
+    color: palevioletred;
+    text-wrap: balance;
+  }
+  p:nth-of-type(4) {
+    color: purple;
+    text-wrap: pretty;
+  }
+
+  p:nth-of-type(5) {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+</style>

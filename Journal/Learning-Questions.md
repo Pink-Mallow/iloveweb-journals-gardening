@@ -79,4 +79,3 @@ DO the [Retromat #121](https://retromat.org/en/?id=121) on your mentor skills
 **What can i do to make cooperation better within the team?**
 - *Communicate more times about what i am currently working on (take my teammates in my workprogress).*
 - *I have to prioritate my work better on the project (to finish my work faster).*
-- *Put my tempo up.* 
