@@ -79,3 +79,72 @@ DO the [Retromat #121](https://retromat.org/en/?id=121) on your mentor skills
 **What can i do to make cooperation better within the team?**
 - *Communicate more times about what i am currently working on (take my teammates in my workprogress).*
 - *I have to prioritate my work better on the project (to finish my work faster).*
+
+- *Put my tempo up.* 
+
+
+## Sprint 14 Lose your head - The Client Case
+
+
+### Typography Week 2
+
+### Fonts
+> [Web CSS Guide Fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts)
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Text
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fragmentation
+
+#### What do i know?
+font shorthand
+font-family
+font-size
+font-size-adjust
+font-width and its legacy alias font-stretch
+font-style
+font-weight
+
+#### What do i not know?
+font-feature-settings
+font-kerning
+font-language-override
+font-optical-sizing
+font-palette
+font-synthesis shorthand
+
+font-synthesis-position
+font-synthesis-small-caps
+font-synthesis-style
+font-synthesis-weight
+font-variant shorthand
+
+font-variant-alternates
+font-variant-caps
+font-variant-east-asian
+font-variant-emoji
+font-variant-ligatures
+font-variant-numeric
+font-variant-position
+font-variation-settings
+
+**Properties**
+
+### Week 3 Retrospect
+
+✒️ Learning Questions
+
+#### How did the backlog refinement go?
+
+#### How does refinement help your project?
+It helps me to have a clear overview and structure of a task to pick up. This helps me to not get lost or do random things to which time can be lost and time is valuable and costs (money).
+So by having a refined task, the task can be finished in a proper manner and add value.
+
+
+## Sprint 15 DRY! - Component library
+> Date Entry: Monday 19th of October 2026
+
+Learning question:
+- How do you distribute the components amongst each other?
+You discuss the sprint planning, talk about what you want to build and divide the tasks. Once it's clear which components needs to be build, you can discuss with each other on who wants to pick up which component, and discuss when you want to finish those components. 
+- How did I ensure that I know what steps I will take for the remainder of the sprint?
+I laid out the weeks on which topics will be discussed on school and where the main focus will be.
+Then I laid out what I've done and which tasks will yet need to be done. 
+Based on that, I made a list of tasks, weighed them out, broke them down if needed and made sure it is ready to be picked up by me.
